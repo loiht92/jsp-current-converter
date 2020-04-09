@@ -9,17 +9,7 @@
 <html>
   <head>
     <title>Currency Converter</title>
-    <style>
-      .form {
-        margin: 20px 20px 20px 20px;
-        border: 1px solid blue;
-      }
-      .form h1 {
-        color: blue;
-        font-size: 30px;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
   <form class="form" action="converter.jsp" method="post">
