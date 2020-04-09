@@ -9,7 +9,7 @@ import java.io.IOException;
 @WebServlet(name = "Currency-Converter",urlPatterns = "/converter")
 public class CurrencyConverter extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
+
         float rate = Float.parseFloat(request.getParameter("rate"));
         float usd = Float.parseFloat(request.getParameter("usd"));
 

@@ -22,7 +22,7 @@
     </style>
   </head>
   <body>
-  <form class="form" action="${pageContext.request.contextPath}/converter" method="post">
+  <form class="form" action="converter.jsp" method="post">
     <h1>Currency Converter</h1>
     <label>Rate:</label><br/>
     <label>
